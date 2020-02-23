@@ -1,0 +1,283 @@
+	html, body{
+		min-height: 98vh;
+	}
+	BODY {position: relative;
+		margin: 0; 
+		background: #060606 url(bg.jpg) center top repeat-x;
+		text-shadow: 0 2px 5px rgba(0,0,0,.9)
+		}
+	.header, .main_part, .bottom_part {
+		margin: 0 7% 0 7%;
+/*		border: 2px solid red;*/
+
+		width: 85%;
+		color: white;
+		}
+	.main_part {
+		padding-bottom: 2em;
+		}
+	.header, .main_part{position: relative;
+		}
+	.header {background: rgba(0, 0, 0, 0.3)}
+/* ----------------------------------------------- */		
+		
+		
+	.top_line{
+		height: 7px;
+		margin: 0;
+		padding: 0;
+		background: #2F4F4F;
+		border-bottom: 2px solid grey;
+		}
+	.logo {
+		min-height: 98px;
+		}
+	.preview_img {
+		
+/*		border: 2px solid red;*/
+		padding: 10px 0 0 0;
+		color: white;
+
+		}
+	.phone_numb{font-size: 18px;
+		color:#fff;
+		text-shadow:0px 0px 9px #00c6ff;
+		}
+	.phone1 {position: absolute;
+		right: 130px;
+		top: 10px;
+		}
+	.phone2 {position: absolute;
+		right: 130px;
+		top: 30px;
+		}
+	.lang_tool_bar {position: absolute;
+		right: 10px;
+		top: 15px;
+/*		border: 2px solid red;*/
+		}
+		.menu_style_1 {list-style: none;
+			margin: 0;
+			padding:0;
+			}
+		.menu_style_1 li {float: left;
+/*			border: 2px solid red;*/
+			}
+	.main_navy {
+		position: absolute;
+		background: #2F4F4F;
+		width: 600px;
+		top: 76px;
+		left: 0;
+		right: 0;
+		border: 2px solid #555;
+		margin: auto;
+		padding: 0;
+		border-radius: 7px 7px 0 0;
+		}
+		.menu_style_2 {
+			list-style: none;
+			margin: 0;
+			padding:0;
+			}
+		.menu_style_2 li {float: left;
+			width: 150px;
+			height: 40px;
+			text-align: center;
+			-moz-transition: all 0.6s 0.01s ease; 
+			-o-transition: all 0.6s 0.01s ease;
+			-webkit-transition: all 0.6s 0.01s ease;
+			transition: all 0.6s 0.01s ease;
+			}
+		.main_navy_not_pushed {
+			border-bottom: 10px solid rgb(110,168,170);
+			}
+		.main_navy_pushed {
+			border-bottom: 10px solid rgb(255,168,0);
+			}
+		.menu_style_2 li a {display: block;
+			height: 100%;
+			line-height:40px;
+			font-family: arial;
+			font-size: 17px;
+			margin: 0;
+			padding:0;
+			text-decoration: none;
+			}
+		.menu_style_2 li:hover {background: rgba(0, 0, 0, 0.1);
+			border-bottom: 10px solid rgb(255,168,0);
+			}
+		.menu_style_2 li a:hover {color: #777;
+			}
+			
+/* ----------Бокове меню------------------------------------- */	
+	.sidebar {
+/*		border: 2px solid red;*/
+		width: 150px;
+		float: left;
+		}
+	.menu_style_3 {list-style: none;
+			margin: 15px 0 0 0;
+			padding:0;
+			background: rgba(47, 79, 79, 0.7);
+			}
+	.menu_style_3 li {
+			height: 30px;
+			padding-left:10px;
+			
+			text-align: left;
+			-moz-transition: all 0.3s 0.01s ease; 
+			-o-transition: all 0.3s 0.01s ease;
+			-webkit-transition: all 0.3s 0.01s ease;
+			transition: all 0.3s 0.01s ease;
+			}
+	.menu_style_3 li a {display: block;
+			height: 100%;
+			line-height:30px;
+			font-family: arial;
+			font-size: 13px;
+			margin: 0;
+			padding:0;
+			text-decoration: none;
+			}
+	.menu_style_3 li:hover {background: rgba(0, 0, 0, 0.1);
+			border-left: 5px solid rgb(255,168,0);
+			}
+	.menu_style_3 li a:hover {color: #777;
+			}
+	.sidebar_navy_pushed {
+			border-left: 5px solid rgb(255,168,0);
+			}
+/* ----------Контейнер для контенту------------------------------------- */			
+	.content {
+/* 		border: 2px solid red;			*/
+		margin-left: 155px;
+		}
+		
+/* ----------Стилі головної сторінки------------------------------------- */
+	.main1 {font-size: 1em;
+		text-align: justify;
+		padding-top: 1em;
+		padding-bottom: 0.8em;
+		padding-left: 27px;
+		color:rgb(192, 191, 191);
+		}
+	.main2 {font-size: 1.4em;
+		color:rgb(192, 191, 191);
+		text-align: center;
+		margin-left: 27px;
+		padding: 0px;
+		background: rgba(47, 79, 79, 0.7);
+		}
+	.main2 a {display: block;
+		}
+	.main2 a:hover {color: #777;
+		background: rgba(0, 0, 0, 0.1);
+		text-decoration: none;
+		}
+	.main_gal_style {text-align: justify;
+		}
+	.main_gal_style a:hover {color: #777;
+		text-decoration: none;
+		}
+	.main_gal_style div{ padding:0px;
+			margin:0px;
+			background: black;
+			}
+	.main_gal_style img:hover {
+			opacity:0.6;
+			}
+	.main_gal_style li {display: inline-block;
+		border: none;
+		height: 240px;
+		width: 210px;
+		vertical-align: top;
+		text-align: center;
+		margin: 0;
+		padding:0;
+		}
+	.main_gal_style:after {
+		content: ' i i i i i ';
+		word-spacing: 200px;
+		padding-left: 205px;
+		visibility: hidden;
+		}
+/* ----------Список фотографій основного контенту-------------------- */	
+
+		.gal_style {text-align: justify;
+			}
+		.gal_style li {display: inline-block;
+			border: none;
+			height: 210px;
+			width: 210px;
+			vertical-align: top;
+			text-align: center;
+			margin: 0;
+			padding:0;
+			}
+		.gal_style:after {
+			content: ' i i i i i ';
+			word-spacing: 200px;
+			padding-left: 205px;
+			visibility: hidden;
+			}
+/* ----------Стилі сторінки Контакти------------------------------------- */	
+	.contact1 {font-size: 1.2em;
+		text-align: justify;
+		padding-top: 1em;
+		padding-bottom: 0.8em;
+		padding-left: 2em;
+		color:rgb(192, 191, 191);
+		}
+	.contact2 {font-size: 1em;
+		text-align: justify;
+		padding-bottom: 0.8em;
+		padding-left: 2em;
+		color:rgb(192, 191, 191);
+		}
+	.contact3 {font-size: 1em;
+		text-align: justify;
+		padding-left: 2em;
+		color:rgb(192, 191, 191);
+		}
+	.contact4 {font-size: 1em;
+		text-align: justify;
+		padding-top: 0.8em;
+		padding-bottom: 1em;
+		padding-left: 2em;
+		color:rgb(192, 191, 191);
+		}
+	.contact5 {
+		padding-left: 2em;
+		}
+/* ----------------------------------------------- */	
+	.bottom_part {position: absolute;
+		bottom: 5px;
+		text-align: center;
+		}
+	
+	
+/* ----------------------------------------------- */	
+   a.pushed:link {color: #7fb874; text-decoration:none;}
+   a.pushed:visited {color: #7fb874; text-decoration:none;}
+   a.pushed:hover {color:#7fb874; text-decoration:underline;}
+   a.notpushed:link {color: #D8D8D8; text-decoration:none;}
+   a.notpushed:visited {color: #D8D8D8; text-decoration:none;}
+   a.notpushed:hover {color:#7fb874; text-decoration:underline;}
+   a:link {color: #D8D8D8; text-decoration:none;}
+   a:visited {color: #D8D8D8; text-decoration:none;}
+   a:hover {color:#7fb874; text-decoration:underline;}
+   TABLE 	{border: 1px solid black;
+			border-collapse: separate; /* —пособ отображени€ границы */
+    		border-spacing: 0px;/* –ассто€ние между €чейками */
+    		padding: 0px;
+    		margin: auto;
+    		align: left;
+    		}
+   TD		{border: 1px solid black;
+			padding: 0px;
+    		margin: auto;
+    		}
+   .classText
+   			{color: #CFCCA0;
+   			}

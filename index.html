@@ -1,22 +1,10 @@
-<?php
-session_start();
-isset($_GET["part"]) ? $main_menu=$_GET["part"] : $main_menu=0;
-isset($_GET["sw"]) ? $left_menu=$_GET["sw"] : $left_menu=0;
-//isset($_GET["id"]) ? $gal_id=$_GET["id"] : $gal_id=0;
-settype($main_menu, "integer");
-if (($main_menu<0)||($main_menu>3)) $main_menu=0;
-settype($left_menu, "integer"); // Доробити, щоб перевіряло в кожному мейнменю окремо
-if (($left_menu<0)||($left_menu>6)) $left_menu=0;
-?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Ковані перила, ворота, перила із нержавіючої сталі у м.Хмельницькому</title>
-	<?php
-		require 'lib/style.php';
-	?>
-		<style type="text/css">
+	<style type="text/css">
+	@import url("css/style.css");
 				TABLE.gal 	{border: 1px solid black;
 						border-collapse: separate; /* Способ отображения границы */
 						border-spacing: 15px;/* Расстояние между ячейками */
@@ -28,7 +16,7 @@ if (($left_menu<0)||($left_menu>6)) $left_menu=0;
 						margin: auto;
 						text-align: center;
 						}
-		</style>
+	</style>
 		<script type="text/javascript" src="lib/script_gal/js/prototype.js"></script>
 		<script type="text/javascript" src="lib/script_gal/js/scriptaculous.js?load=effects,builder"></script>
 		<script type="text/javascript" src="lib/script_gal/js/lightbox.js"></script>
