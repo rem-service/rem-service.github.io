@@ -51,29 +51,17 @@
 	</ul>
 	</div>
 	<div class="preview_img">
-		<img src="lib/img/<?php echo rand(1,3);?>.gif" width="100%" alt="preview_img">
+		<img src="lib/img/1,.gif" width="100%" alt="preview_img">
 	</div>
 </div>
 <div class="main_part">
 	<div class="sidebar">
 		<ul class="menu_style_3">
-			<?php 		
-			switch ($main_menu)
-			{
-			case 0:
-				require 'lib/left_menu_0.php';
-				break;
-			case 1:
-				require 'lib/left_menu_1.php';
-				break;
-			case 2:
-				require 'lib/left_menu_2.php';
-				break;
-			case 3:
-				require 'lib/left_menu_3.php';
-				break;
-			}
-			?>	
+			<li class="sidebar_navy_pushed"><a href="index.php?part=0&sw=0">Головна</a></li>
+<!--		require 'lib/left_menu_0.php';
+			require 'lib/left_menu_1.php';
+			require 'lib/left_menu_2.php';
+			require 'lib/left_menu_3.php';    -->
 		</ul>
 	</div>
 	<div class="content">
